@@ -1,0 +1,4 @@
+data/*
+.idea/
+src/checkpoints
+src/mnist_*
