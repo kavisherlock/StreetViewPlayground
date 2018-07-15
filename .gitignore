@@ -2,3 +2,4 @@ data/*
 .idea/
 src/checkpoints
 src/mnist_*
+src/helpers/__pycache__/
