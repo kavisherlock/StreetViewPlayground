@@ -3,8 +3,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import h5py
-import sys
-sys.path.append('../')
 from helpers import data_helper
 from IPython.display import display
 from PIL import Image, ImageDraw
