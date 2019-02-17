@@ -71,20 +71,17 @@ def plot_images(images, nrows, ncols, cls_true, cls_pred=None):
 
 
 def conv_weight_variable(layer_name, shape):
-    """ Retrieve an existing variable with the given layer name
-    """
+    """ Retrieve an existing variable with the given layer name"""
     return tf.get_variable(layer_name, shape=shape, initializer=tf.contrib.layers.xavier_initializer_conv2d())
 
 
 def fc_weight_variable(layer_name, shape):
-    """ Retrieve an existing variable with the given layer name
-    """
+    """ Retrieve an existing variable with the given layer name"""
     return tf.get_variable(layer_name, shape=shape, initializer=tf.contrib.layers.xavier_initializer())
 
 
 def bias_variable(shape):
-    """ Creates a new bias variable
-    """
+    """ Creates a new bias variable"""
     return tf.Variable(tf.constant(0.0, shape=shape))
 
 

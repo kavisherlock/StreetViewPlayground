@@ -1,5 +1,12 @@
-data/*
 .idea/
+.DS_Store
+.Python
 src/checkpoints
-src/mnist_*
+src/logs
+src/__pycache__/
 src/helpers/__pycache__/
+data/*
+lib/
+include/
+bin/
+pip-selfcheck.json
